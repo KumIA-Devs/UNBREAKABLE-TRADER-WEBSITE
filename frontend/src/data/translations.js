@@ -105,7 +105,7 @@ export const translations = {
       headline: "La Mayoría de Traders Se Mienten a Sí Mismos. Queman Dinero Persiguiendo el Santo Grial.",
       subheadline: "Nuevas estrategias. Indicadores brillantes. Señales de gurús. Comunidades caras. ¿La verdad? No fallas por el mercado. Fallas porque no tienes sistema. El trading no es un casino. No es un pasatiempo. Es un negocio.",
       description: "Y en los negocios, no dependes del talento. Dependes de sistemas. Si tus sistemas están rotos — o peor, ni siquiera tienes uno — no tienes un negocio. Tienes un pasatiempo caro.",
-      cta: "Detén la Locura - Obtén el Sistema $49",
+      cta: "Obtener el Sistema por $49",
       preview: "Vista Previa del Sistema",
       delivery: "Después del pago, recibirás instantáneamente un PDF con enlaces de acceso a los 4 componentes de tu sistema Unbreakable Trader."
     },
