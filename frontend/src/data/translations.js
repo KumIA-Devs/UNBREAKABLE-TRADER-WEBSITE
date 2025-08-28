@@ -120,7 +120,7 @@ export const translations = {
       headline: "Unbreakable Trader™ no te da estrategias.",
       subheadline: "Los traders profesionales no dependen de la suerte. Dependen de sistemas.",
       description: "Unbreakable Trader™ no cambia tu estrategia, potenciamos tu consistencia. Convierte tu trading en un proceso claro, repetible y medible. Funciona con cualquier estilo de trading, en cualquier mercado, porque la verdadera transformación empieza contigo: si no eres consistente en tu vida, no lo serás en los mercados.",
-      cta: "Obtener el Sistema por $26",
+      cta: "Get the System for $49",
       preview: "Vista Previa del Sistema",
       delivery: "Después del pago, recibirás instantáneamente un PDF con enlaces de acceso a los 4 componentes de tu sistema Unbreakable Trader."
     },
