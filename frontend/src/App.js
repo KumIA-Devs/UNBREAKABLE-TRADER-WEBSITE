@@ -5,6 +5,7 @@ import { LanguageProvider } from './components/LanguageContext';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import SystemSection from './components/SystemSection';
+import NotionShowcase from './components/NotionShowcase';
 import SuccessStories from './components/SuccessStories';
 import Footer from './components/Footer';
 
@@ -14,6 +15,9 @@ const Home = () => {
       <Header />
       <Hero />
       <SystemSection />
+      <div id="notion-showcase">
+        <NotionShowcase />
+      </div>
       <SuccessStories />
       <Footer />
     </div>
