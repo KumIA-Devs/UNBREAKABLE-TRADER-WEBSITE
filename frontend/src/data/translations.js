@@ -7,6 +7,13 @@ export const translations = {
       successStories: "Success Stories"
     },
     
+    // Pricing & Links
+    pricing: {
+      price: "$49",
+      purchaseUrl: "https://mpago.la/1X7QviH",
+      previewUrl: "https://noisy-duckling-f24.notion.site/Unbreakable-Trader-View-Only-2547730e2d4680c09e0ced9fda5332b1?source=copy_link"
+    },
+    
     // Hero Section
     hero: {
       tagline: "CLARITY. CONTROL. CONFIDENCE.",
@@ -48,7 +55,8 @@ export const translations = {
       value: {
         title: "Inside Your $49 Unbreakable Trader System",
         subtitle: "Stop gambling. Stop pretending. Build the system that makes you a real trader.",
-        delivery: "Instant access via PDF download after payment - no waiting, no complications."
+        delivery: "Instant access via PDF download after payment - no waiting, no complications.",
+        ctaText: "Get The Complete System - $49"
       }
     },
     
@@ -99,13 +107,20 @@ export const translations = {
       successStories: "Casos de Éxito"
     },
     
+    // Pricing & Links
+    pricing: {
+      price: "$26",
+      purchaseUrl: "https://mpago.la/1MgBQeK",
+      previewUrl: "https://www.notion.so/Trader-Inquebrantable-Solo-Vista-2547730e2d468046a36fcf959e35727f"
+    },
+    
     // Hero Section
     hero: {
       tagline: "CLARIDAD. CONTROL. CONFIANZA.",
       headline: "Unbreakable Trader™ no te da estrategias.",
       subheadline: "Los traders profesionales no dependen de la suerte. Dependen de sistemas.",
       description: "Unbreakable Trader™ no cambia tu estrategia, potenciamos tu consistencia. Convierte tu trading en un proceso claro, repetible y medible. Funciona con cualquier estilo de trading, en cualquier mercado, porque la verdadera transformación empieza contigo: si no eres consistente en tu vida, no lo serás en los mercados.",
-      cta: "Obtener el Sistema por $49",
+      cta: "Obtener el Sistema por $26",
       preview: "Vista Previa del Sistema",
       delivery: "Después del pago, recibirás instantáneamente un PDF con enlaces de acceso a los 4 componentes de tu sistema Unbreakable Trader."
     },
@@ -138,9 +153,10 @@ export const translations = {
         }
       },
       value: {
-        title: "Dentro de tu Sistema Unbreakable Trader de $49",
+        title: "Dentro de tu Sistema Unbreakable Trader de $26",
         subtitle: "Deja de apostar. Deja de fingir. Construye el sistema que te convierte en un trader real.",
-        delivery: "Acceso instantáneo vía descarga PDF después del pago - sin esperas, sin complicaciones."
+        delivery: "Acceso instantáneo vía descarga PDF después del pago - sin esperas, sin complicaciones.",
+        ctaText: "Obtener el Sistema Completo - $26"
       }
     },
     
