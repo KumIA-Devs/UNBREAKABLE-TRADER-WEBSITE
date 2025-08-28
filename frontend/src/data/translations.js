@@ -107,11 +107,11 @@ export const translations = {
       successStories: "Casos de Éxito"
     },
     
-    // Pricing & Links
+    // Pricing & Links - Unified for all languages
     pricing: {
-      price: "$26",
-      purchaseUrl: "https://mpago.la/1MgBQeK",
-      previewUrl: "https://www.notion.so/Trader-Inquebrantable-Solo-Vista-2547730e2d468046a36fcf959e35727f"
+      price: "$49",
+      purchaseUrl: "https://mpago.la/1X7QviH",
+      previewUrl: "https://noisy-duckling-f24.notion.site/Unbreakable-Trader-View-Only-2547730e2d4680c09e0ced9fda5332b1?source=copy_link"
     },
     
     // Hero Section
