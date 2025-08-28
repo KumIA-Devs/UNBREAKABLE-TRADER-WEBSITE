@@ -16,8 +16,7 @@ const Footer = () => {
             <img 
               src="https://customer-assets.emergentagent.com/job_unbreakable-os/artifacts/xses6sqk_UNBREAKABLE%20TRADER.png" 
               alt="Unbreakable Trader" 
-              className="h-16 w-auto"
-              style={{ filter: 'brightness(0) invert(1)' }}
+              className="h-16 w-auto brightness-0 invert"
             />
             <p className="text-gray-400 text-lg leading-relaxed">
               {language === 'en' 
