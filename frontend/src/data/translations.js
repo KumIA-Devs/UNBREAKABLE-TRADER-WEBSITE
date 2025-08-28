@@ -156,7 +156,7 @@ export const translations = {
         title: "Dentro de tu Sistema Unbreakable Trader de $49",
         subtitle: "Deja de apostar. Deja de fingir. Construye el sistema que te convierte en un trader real.",
         delivery: "Acceso instantáneo vía descarga PDF después del pago - sin esperas, sin complicaciones.",
-        ctaText: "Obtener el Sistema Completo - $26"
+        ctaText: "Obtener el Sistema Completo - $49"
       }
     },
     
