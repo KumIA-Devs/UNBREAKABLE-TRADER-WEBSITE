@@ -4,82 +4,80 @@ export const translations = {
     nav: {
       preview: "Preview",
       getSystem: "Get System",
-      contact: "Contact",
       successStories: "Success Stories"
     },
     
     // Hero Section
     hero: {
       tagline: "CLARITY. CONTROL. CONFIDENCE.",
-      headline: "Stop Gambling. Start Building The System That Makes You A Real Trader.",
-      subheadline: "Most traders burn money chasing strategies. The truth? They fail because they have no system. Trading is a business, and you need the tools to master yourself before, during, and after execution.",
-      cta: "Get The System - $49",
-      preview: "Preview System"
+      headline: "Most Traders Are Lying To Themselves. They Burn Money Chasing The Holy Grail.",
+      subheadline: "New strategies. Shiny indicators. Guru signals. Expensive communities. The truth? You don't fail because of the market. You fail because you have no system. Trading is not a casino. It's not a hobby. It's a business.",
+      description: "And in business, you don't rely on talent. You rely on systems. If your systems are broken — or worse, you don't even have one — you don't have a business. You have an expensive hobby.",
+      cta: "Stop The Madness - Get The System $49",
+      preview: "Preview The System",
+      delivery: "After payment, you'll instantly receive a PDF with access links to all 4 components of your Unbreakable Trader system."
     },
     
     // System Section
     system: {
-      title: "What is Unbreakable Trader?",
-      subtitle: "The system that fixes where 99% of traders fail",
-      description: "Trading is not a casino. It's not a hobby. It's not even a job. It's a business. And in business, you don't rely on talent. You rely on systems.",
+      title: "This Is Where 99% of Traders Fail",
+      subtitle: "Not analysis. Not strategies. But the exact areas that separate winners from losers.",
+      description: "Unbreakable Trader™ gives you tools to master yourself before, during, and after execution. The system that fixes the real problem.",
       features: {
         notion: {
           title: "Unbreakable Trader Notion OS",
-          description: "Plan, track, and measure every trade like a business."
+          description: "Stop trading like an amateur. Track every decision, pattern, and emotion like the business owner you need to become. Your complete command center for consistent profitability.",
+          emotion: "Finally, trade like you mean business"
         },
         logbook: {
-          title: "30-Day LogBook Transformation",
-          description: "Daily system to rewire habits and document consistency."
+          title: "30-Day Mental Rewiring LogBook",
+          description: "The difference between profitable traders and losers isn't talent—it's daily habits. This logbook rewires your brain for consistency, discipline, and emotional control.",
+          emotion: "Build the mindset of a funded trader"
         },
         coach: {
-          title: "AI Coach",
-          description: "A virtual mentor that keeps you accountable 24/7."
+          title: "AI Accountability Coach",
+          description: "Your personal trading mentor that never sleeps. Get real-time feedback on your decisions, identify destructive patterns, and stay accountable when emotions try to hijack your account.",
+          emotion: "Never trade alone again"
         },
         guide: {
-          title: "User Guide",
-          description: "Step-by-step playbook to use the system effectively."
+          title: "Complete Implementation Guide", 
+          description: "Zero confusion. Zero excuses. Step-by-step instructions to implement every piece of the system and transform from gambler to systematic trader in 30 days.",
+          emotion: "No more guessing what to do next"
         }
+      },
+      value: {
+        title: "Inside Your $49 Unbreakable Trader System",
+        subtitle: "Stop gambling. Stop pretending. Build the system that makes you a real trader.",
+        delivery: "Instant access via PDF download after payment - no waiting, no complications."
       }
     },
     
     // Success Stories
     success: {
-      title: "Success Stories",
-      subtitle: "From Lack of Clarity to Funded Accounts",
+      title: "Real Traders. Real Results.",
+      subtitle: "From Blown Accounts to Funded Success",
       stories: [
         {
           name: "Ashley",
-          story: "Went from burning through 3 accounts to securing a $100k funded account using the Unbreakable Trader system. The daily logbook completely transformed my decision-making process."
+          story: "I burned through 3 accounts in 6 months. The daily logbook completely changed how I think about trading. Now I have a $100k funded account and consistent monthly profits. This system saved my trading career."
         },
         {
           name: "Jesus",
-          story: "After 2 years of inconsistent results, the Notion OS helped me track patterns I never noticed. Now managing a $50k funded account with consistent monthly profits."
+          story: "2 years of inconsistent results nearly broke me. The Notion OS revealed patterns I never saw before. I passed my prop firm challenge and now manage a $50k account with discipline I never had."
         },
         {
           name: "Valentina",
-          story: "The AI Coach feature was a game-changer. It kept me accountable when emotions tried to take over. Passed my prop firm challenge in 6 weeks."
+          story: "Emotions destroyed my trading for years. The AI Coach keeps me accountable when my mind tries to sabotage my success. Passed my evaluation in 6 weeks - something I couldn't do in 2 years alone."
         },
         {
           name: "Gabriela",
-          story: "Used to rely on signals and guru advice. The system taught me to trust my own analysis. Now trading my own $75k funded account successfully."
+          story: "I was addicted to trading signals and guru advice. This system taught me to trust my own analysis and follow my rules. Now trading my own $75k funded account with complete confidence."
         },
         {
           name: "Karla",
-          story: "The 30-day transformation logbook helped me identify and fix my biggest weakness - revenge trading. Secured my first funded account last month."
+          story: "Revenge trading killed every account I touched. The 30-day logbook helped me identify and eliminate my biggest weakness. Got my first funded account last month and haven't looked back."
         }
       ]
-    },
-    
-    // Contact
-    contact: {
-      title: "Get Started Today",
-      subtitle: "Ready to transform your trading?",
-      form: {
-        name: "Full Name",
-        email: "Email Address",
-        message: "How can we help you?",
-        submit: "Send Message"
-      }
     },
     
     // Footer
@@ -98,82 +96,80 @@ export const translations = {
     nav: {
       preview: "Vista Previa",
       getSystem: "Obtener Sistema",
-      contact: "Contacto",
       successStories: "Casos de Éxito"
     },
     
     // Hero Section
     hero: {
       tagline: "CLARIDAD. CONTROL. CONFIANZA.",
-      headline: "Deja de Apostar. Comienza a Construir el Sistema que te Convierte en un Trader Real.",
-      subheadline: "La mayoría de traders queman dinero persiguiendo estrategias. La verdad? Fallan porque no tienen sistema. El trading es un negocio, y necesitas las herramientas para dominarte a ti mismo antes, durante y después de la ejecución.",
-      cta: "Obtener el Sistema - $49",
-      preview: "Vista Previa del Sistema"
+      headline: "La Mayoría de Traders Se Mienten a Sí Mismos. Queman Dinero Persiguiendo el Santo Grial.",
+      subheadline: "Nuevas estrategias. Indicadores brillantes. Señales de gurús. Comunidades caras. ¿La verdad? No fallas por el mercado. Fallas porque no tienes sistema. El trading no es un casino. No es un pasatiempo. Es un negocio.",
+      description: "Y en los negocios, no dependes del talento. Dependes de sistemas. Si tus sistemas están rotos — o peor, ni siquiera tienes uno — no tienes un negocio. Tienes un pasatiempo caro.",
+      cta: "Detén la Locura - Obtén el Sistema $49",
+      preview: "Vista Previa del Sistema",
+      delivery: "Después del pago, recibirás instantáneamente un PDF con enlaces de acceso a los 4 componentes de tu sistema Unbreakable Trader."
     },
     
     // System Section
     system: {
-      title: "¿Qué es Unbreakable Trader?",
-      subtitle: "El sistema que arregla donde el 99% de traders fallan",
-      description: "El trading no es un casino. No es un pasatiempo. Ni siquiera es un trabajo. Es un negocio. Y en los negocios, no dependes del talento. Dependes de sistemas.",
+      title: "Aquí es Donde Falla el 99% de los Traders",
+      subtitle: "No el análisis. No las estrategias. Sino las áreas exactas que separan a los ganadores de los perdedores.",
+      description: "Unbreakable Trader™ te da herramientas para dominarte a ti mismo antes, durante y después de la ejecución. El sistema que arregla el problema real.",
       features: {
         notion: {
           title: "Sistema Notion OS Unbreakable Trader",
-          description: "Planifica, rastrea y mide cada operación como un negocio."
+          description: "Deja de tradear como un amateur. Rastrea cada decisión, patrón y emoción como el dueño de negocio que necesitas ser. Tu centro de comando completo para rentabilidad consistente.",
+          emotion: "Finalmente, tradea en serio"
         },
         logbook: {
-          title: "Transformación LogBook de 30 Días",
-          description: "Sistema diario para reprogramar hábitos y documentar consistencia."
+          title: "LogBook de Reprogramación Mental de 30 Días",
+          description: "La diferencia entre traders rentables y perdedores no es el talento—son los hábitos diarios. Este logbook reprograma tu cerebro para consistencia, disciplina y control emocional.",
+          emotion: "Construye la mentalidad de un trader fondeado"
         },
         coach: {
-          title: "Coach de IA",
-          description: "Un mentor virtual que te mantiene responsable 24/7."
+          title: "Coach de Responsabilidad IA",
+          description: "Tu mentor personal de trading que nunca duerme. Obtén retroalimentación en tiempo real sobre tus decisiones, identifica patrones destructivos, y mantente responsable cuando las emociones traten de secuestrar tu cuenta.",
+          emotion: "Nunca más tradees solo"
         },
         guide: {
-          title: "Guía del Usuario",
-          description: "Manual paso a paso para usar el sistema efectivamente."
+          title: "Guía Completa de Implementación",
+          description: "Cero confusión. Cero excusas. Instrucciones paso a paso para implementar cada pieza del sistema y transformarte de apostador a trader sistemático en 30 días.",
+          emotion: "No más adivinar qué hacer después"
         }
+      },
+      value: {
+        title: "Dentro de tu Sistema Unbreakable Trader de $49",
+        subtitle: "Deja de apostar. Deja de fingir. Construye el sistema que te convierte en un trader real.",
+        delivery: "Acceso instantáneo vía descarga PDF después del pago - sin esperas, sin complicaciones."
       }
     },
     
     // Success Stories
     success: {
-      title: "Casos de Éxito",
-      subtitle: "De la Falta de Claridad a Cuentas Fondeadas",
+      title: "Traders Reales. Resultados Reales.",
+      subtitle: "De Cuentas Quemadas al Éxito Fondeado",
       stories: [
         {
           name: "Ashley",
-          story: "Pasé de quemar 3 cuentas a asegurar una cuenta fondeada de $100k usando el sistema Unbreakable Trader. El logbook diario transformó completamente mi proceso de toma de decisiones."
+          story: "Quemé 3 cuentas en 6 meses. El logbook diario cambió completamente cómo pienso sobre el trading. Ahora tengo una cuenta fondeada de $100k y ganancias mensuales consistentes. Este sistema salvó mi carrera de trading."
         },
         {
           name: "Jesus",
-          story: "Después de 2 años de resultados inconsistentes, el OS Notion me ayudó a rastrear patrones que nunca noté. Ahora manejo una cuenta fondeada de $50k con ganancias mensuales consistentes."
+          story: "2 años de resultados inconsistentes casi me quebraron. El OS Notion reveló patrones que nunca vi antes. Pasé mi desafío de prop firm y ahora manejo una cuenta de $50k con disciplina que nunca tuve."
         },
         {
           name: "Valentina",
-          story: "La función de Coach de IA fue un cambio total. Me mantuvo responsable cuando las emociones trataron de tomar control. Pasé mi desafío de prop firm en 6 semanas."
+          story: "Las emociones destruyeron mi trading por años. El Coach de IA me mantiene responsable cuando mi mente trata de sabotear mi éxito. Pasé mi evaluación en 6 semanas - algo que no pude hacer en 2 años sola."
         },
         {
           name: "Gabriela",
-          story: "Solía depender de señales y consejos de gurús. El sistema me enseñó a confiar en mi propio análisis. Ahora opero mi propia cuenta fondeada de $75k exitosamente."
+          story: "Era adicta a señales de trading y consejos de gurús. Este sistema me enseñó a confiar en mi propio análisis y seguir mis reglas. Ahora tradeo mi propia cuenta fondeada de $75k con total confianza."
         },
         {
           name: "Karla",
-          story: "El logbook de transformación de 30 días me ayudó a identificar y arreglar mi mayor debilidad - el revenge trading. Aseguré mi primera cuenta fondeada el mes pasado."
+          story: "El revenge trading mató cada cuenta que toqué. El logbook de 30 días me ayudó a identificar y eliminar mi mayor debilidad. Conseguí mi primera cuenta fondeada el mes pasado y no he mirado atrás."
         }
       ]
-    },
-    
-    // Contact
-    contact: {
-      title: "Comienza Hoy",
-      subtitle: "¿Listo para transformar tu trading?",
-      form: {
-        name: "Nombre Completo",
-        email: "Correo Electrónico",
-        message: "¿Cómo podemos ayudarte?",
-        submit: "Enviar Mensaje"
-      }
     },
     
     // Footer

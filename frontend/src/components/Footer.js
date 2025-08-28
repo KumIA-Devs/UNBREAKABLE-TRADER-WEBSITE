@@ -14,9 +14,9 @@ const Footer = () => {
           {/* Logo Section */}
           <div className="space-y-6">
             <img 
-              src="https://customer-assets.emergentagent.com/job_e01b069d-7b15-44a6-acea-748ef12f5a6e/artifacts/5wdn5ohr_Logo%20Unbreakable%20trader.png" 
+              src="https://customer-assets.emergentagent.com/job_unbreakable-os/artifacts/xses6sqk_UNBREAKABLE%20TRADER.png" 
               alt="Unbreakable Trader" 
-              className="h-12 w-auto filter brightness-0 invert"
+              className="h-16 w-auto filter brightness-0 invert"
             />
             <p className="text-gray-400 text-lg leading-relaxed">
               {language === 'en' 
@@ -47,12 +47,6 @@ const Footer = () => {
                 className="block text-gray-400 hover:text-white transition-colors text-lg"
               >
                 {language === 'en' ? 'Get System ($49)' : 'Obtener Sistema ($49)'}
-              </a>
-              <a 
-                href="mailto:nataly@unbreakabletrader.net"
-                className="block text-gray-400 hover:text-white transition-colors text-lg"
-              >
-                {language === 'en' ? 'Contact Support' : 'Soporte de Contacto'}
               </a>
             </div>
           </div>

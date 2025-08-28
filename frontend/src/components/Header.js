@@ -21,9 +21,9 @@ const Header = () => {
           {/* Logo */}
           <div className="flex-shrink-0">
             <img 
-              src="https://customer-assets.emergentagent.com/job_e01b069d-7b15-44a6-acea-748ef12f5a6e/artifacts/5wdn5ohr_Logo%20Unbreakable%20trader.png" 
+              src="https://customer-assets.emergentagent.com/job_unbreakable-os/artifacts/xses6sqk_UNBREAKABLE%20TRADER.png" 
               alt="Unbreakable Trader" 
-              className="h-12 w-auto"
+              className="h-16 w-auto"
             />
           </div>
 
@@ -31,21 +31,15 @@ const Header = () => {
           <nav className="hidden md:flex items-center space-x-8">
             <button 
               onClick={() => scrollToSection('preview')}
-              className="text-gray-700 hover:text-gray-900 font-medium transition-colors"
+              className="text-gray-700 hover:text-gray-900 font-medium transition-colors text-lg"
             >
               {t.nav.preview}
             </button>
             <button 
               onClick={() => scrollToSection('success-stories')}
-              className="text-gray-700 hover:text-gray-900 font-medium transition-colors"
+              className="text-gray-700 hover:text-gray-900 font-medium transition-colors text-lg"
             >
               {t.nav.successStories}
-            </button>
-            <button 
-              onClick={() => scrollToSection('contact')}
-              className="text-gray-700 hover:text-gray-900 font-medium transition-colors"
-            >
-              {t.nav.contact}
             </button>
           </nav>
 
@@ -67,7 +61,7 @@ const Header = () => {
             {/* CTA Button */}
             <Button 
               onClick={() => window.open('https://mpago.la/1X7QviH', '_blank')}
-              className="bg-black text-white hover:bg-gray-800 px-6 py-2 rounded-none font-medium transition-all duration-300 transform hover:scale-105"
+              className="bg-black text-white hover:bg-gray-800 px-6 py-2 rounded-none font-medium transition-all duration-300 transform hover:scale-105 text-lg"
             >
               {t.nav.getSystem}
             </Button>

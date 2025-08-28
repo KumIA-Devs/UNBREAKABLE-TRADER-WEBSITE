@@ -6,7 +6,6 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import SystemSection from './components/SystemSection';
 import SuccessStories from './components/SuccessStories';
-import Contact from './components/Contact';
 import Footer from './components/Footer';
 
 const Home = () => {
@@ -16,7 +15,6 @@ const Home = () => {
       <Hero />
       <SystemSection />
       <SuccessStories />
-      <Contact />
       <Footer />
     </div>
   );
