@@ -10,9 +10,9 @@ export const translations = {
     // Hero Section
     hero: {
       tagline: "CLARITY. CONTROL. CONFIDENCE.",
-      headline: "Most Traders Are Lying To Themselves. They Burn Money Chasing The Holy Grail.",
-      subheadline: "New strategies. Shiny indicators. Guru signals. Expensive communities. The truth? You don't fail because of the market. You fail because you have no system. Trading is not a casino. It's not a hobby. It's a business.",
-      description: "And in business, you don't rely on talent. You rely on systems. If your systems are broken — or worse, you don't even have one — you don't have a business. You have an expensive hobby.",
+      headline: "Unbreakable Trader™ doesn't give you strategies.",
+      subheadline: "Professional traders don't rely on luck. They rely on systems.",
+      description: "Unbreakable Trader™ doesn't change your strategy, we amplify your consistency. Transform your trading into a clear, repeatable, and measurable process. Works with any trading style, in any market, because true transformation starts with you: if you're not consistent in your life, you won't be consistent in the markets.",
       cta: "Get the System for $49",
       preview: "Preview The System",
       delivery: "After payment, you'll instantly receive a PDF with access links to all 4 components of your Unbreakable Trader system."
@@ -20,9 +20,9 @@ export const translations = {
     
     // System Section
     system: {
-      title: "This Is Where 99% of Traders Fail",
-      subtitle: "Not analysis. Not strategies. But the exact areas that separate winners from losers.",
-      description: "Unbreakable Trader™ gives you tools to master yourself before, during, and after execution. The system that fixes the real problem.",
+      title: "Build Unbreakable Consistency",
+      subtitle: "The complete system that transforms your trading into a professional process.",
+      description: "Four powerful tools working together to create the consistency and structure that separates successful traders from the rest.",
       features: {
         notion: {
           title: "Unbreakable Trader Notion OS",
