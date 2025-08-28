@@ -102,9 +102,9 @@ export const translations = {
     // Hero Section
     hero: {
       tagline: "CLARIDAD. CONTROL. CONFIANZA.",
-      headline: "La Mayoría de Traders Se Mienten a Sí Mismos. Queman Dinero Persiguiendo el Santo Grial.",
-      subheadline: "Nuevas estrategias. Indicadores brillantes. Señales de gurús. Comunidades caras. ¿La verdad? No fallas por el mercado. Fallas porque no tienes sistema. El trading no es un casino. No es un pasatiempo. Es un negocio.",
-      description: "Y en los negocios, no dependes del talento. Dependes de sistemas. Si tus sistemas están rotos — o peor, ni siquiera tienes uno — no tienes un negocio. Tienes un pasatiempo caro.",
+      headline: "Unbreakable Trader™ no te da estrategias.",
+      subheadline: "Los traders profesionales no dependen de la suerte. Dependen de sistemas.",
+      description: "Unbreakable Trader™ no cambia tu estrategia, potenciamos tu consistencia. Convierte tu trading en un proceso claro, repetible y medible. Funciona con cualquier estilo de trading, en cualquier mercado, porque la verdadera transformación empieza contigo: si no eres consistente en tu vida, no lo serás en los mercados.",
       cta: "Obtener el Sistema por $49",
       preview: "Vista Previa del Sistema",
       delivery: "Después del pago, recibirás instantáneamente un PDF con enlaces de acceso a los 4 componentes de tu sistema Unbreakable Trader."
@@ -112,9 +112,9 @@ export const translations = {
     
     // System Section
     system: {
-      title: "Aquí es Donde Falla el 99% de los Traders",
-      subtitle: "No el análisis. No las estrategias. Sino las áreas exactas que separan a los ganadores de los perdedores.",
-      description: "Unbreakable Trader™ te da herramientas para dominarte a ti mismo antes, durante y después de la ejecución. El sistema que arregla el problema real.",
+      title: "Construye Consistencia Inquebrantable",
+      subtitle: "El sistema completo que transforma tu trading en un proceso profesional.",
+      description: "Cuatro herramientas poderosas trabajando juntas para crear la consistencia y estructura que separa a los traders exitosos del resto.",
       features: {
         notion: {
           title: "Sistema Notion OS Unbreakable Trader",
