@@ -36,7 +36,7 @@ const Footer = () => {
             </h3>
             <div className="space-y-3 sm:space-y-4">
               <a 
-                href="https://noisy-duckling-f24.notion.site/Unbreakable-Trader-View-Only-2547730e2d4680c09e0ced9fda5332b1?source=copy_link"
+                href={t.pricing.previewUrl}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block text-gray-400 hover:text-white transition-colors text-base sm:text-lg"
@@ -44,12 +44,12 @@ const Footer = () => {
                 {language === 'en' ? 'System Preview' : 'Vista Previa del Sistema'}
               </a>
               <a 
-                href="https://mpago.la/1X7QviH"
+                href={t.pricing.purchaseUrl}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block text-gray-400 hover:text-white transition-colors text-base sm:text-lg"
               >
-                {language === 'en' ? 'Get System ($49)' : 'Obtener Sistema ($49)'}
+                {language === 'en' ? `Get System (${t.pricing.price})` : `Obtener Sistema (${t.pricing.price})`}
               </a>
               <a 
                 href="mailto:nataly@unbreakabletrader.net"

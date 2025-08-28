@@ -74,10 +74,10 @@ const SuccessStories = () => {
               }
             </p>
             <button 
-              onClick={() => window.open('https://mpago.la/1X7QviH', '_blank')}
+              onClick={() => window.open(t.pricing.purchaseUrl, '_blank')}
               className="w-full sm:w-auto bg-black text-white hover:bg-gray-800 px-8 sm:px-12 py-3 sm:py-4 rounded-none font-bold text-lg sm:text-xl transition-all duration-300 transform hover:scale-105"
             >
-              {language === 'en' ? 'Get Your System Now - $49' : 'Obtén tu Sistema Ahora - $49'}
+              {language === 'en' ? `Get Your System Now - ${t.pricing.price}` : `Obtén tu Sistema Ahora - ${t.pricing.price}`}
             </button>
           </div>
         </div>

@@ -1,10 +1,12 @@
 import React from 'react';
 import { useLanguage } from './LanguageContext';
+import { translations } from '../data/translations';
 import { Card, CardContent } from './ui/card';
 import { Monitor, TrendingUp, Target, BarChart3 } from 'lucide-react';
 
 const NotionShowcase = () => {
   const { language } = useLanguage();
+  const t = translations[language];
 
   const notionFeatures = [
     {
@@ -127,16 +129,16 @@ const NotionShowcase = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <button 
-                onClick={() => window.open('https://noisy-duckling-f24.notion.site/Unbreakable-Trader-View-Only-2547730e2d4680c09e0ced9fda5332b1?source=copy_link', '_blank')}
+                onClick={() => window.open(t.pricing.previewUrl, '_blank')}
                 className="w-full sm:w-auto bg-gray-900 text-white hover:bg-gray-800 px-6 sm:px-8 lg:px-10 py-3 sm:py-4 rounded-none font-bold text-base sm:text-lg lg:text-xl transition-all duration-300 transform hover:scale-105"
               >
                 {language === 'en' ? 'Preview Full System' : 'Vista Previa del Sistema'}
               </button>
               <button 
-                onClick={() => window.open('https://mpago.la/1X7QviH', '_blank')}
+                onClick={() => window.open(t.pricing.purchaseUrl, '_blank')}
                 className="w-full sm:w-auto bg-yellow-500 text-black hover:bg-yellow-400 px-6 sm:px-8 lg:px-10 py-3 sm:py-4 rounded-none font-black text-base sm:text-lg lg:text-xl transition-all duration-300 transform hover:scale-105"
               >
-                {language === 'en' ? 'Get System Now - $49' : 'Obtener Sistema - $49'}
+                {language === 'en' ? `Get System Now - ${t.pricing.price}` : `Obtener Sistema - ${t.pricing.price}`}
               </button>
             </div>
           </div>
