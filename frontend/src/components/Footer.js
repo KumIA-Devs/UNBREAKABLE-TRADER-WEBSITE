@@ -13,11 +13,14 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
           {/* Logo Section */}
           <div className="space-y-6">
-            <img 
-              src="https://customer-assets.emergentagent.com/job_unbreakable-os/artifacts/xses6sqk_UNBREAKABLE%20TRADER.png" 
-              alt="Unbreakable Trader" 
-              className="h-16 w-auto brightness-0 invert"
-            />
+            <div className="text-2xl font-black text-white">
+              <span className="text-yellow-400">UNBREAKABLE</span>
+              <br />
+              <span className="text-white">TRADER</span>
+              <div className="text-xs font-medium text-gray-400 mt-2 tracking-wider">
+                CLARITY. CONTROL. CONFIDENCE.
+              </div>
+            </div>
             <p className="text-gray-400 text-lg leading-relaxed">
               {language === 'en' 
                 ? 'Building systems that transform traders from gamblers to professionals.'
