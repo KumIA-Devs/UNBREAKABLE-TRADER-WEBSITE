@@ -107,8 +107,8 @@ const SystemSection = () => {
           })}
         </div>
 
-        {/* Value Proposition - Updated with Gold Theme */}
-        <div className="text-center bg-gradient-to-br from-yellow-600 via-yellow-500 to-amber-600 text-white rounded-3xl p-16 relative overflow-hidden shadow-2xl">
+        {/* Value Proposition - Black Theme */}
+        <div className="text-center bg-black text-white rounded-3xl p-16 relative overflow-hidden shadow-2xl">
           {/* Background Pattern */}
           <div className="absolute inset-0 opacity-10">
             <div className="absolute inset-0" style={{
@@ -123,10 +123,52 @@ const SystemSection = () => {
             <p className="text-2xl mb-10 max-w-4xl mx-auto leading-relaxed">
               {t.system.value.subtitle}
             </p>
+
+            {/* System Summary List */}
+            <div className="max-w-3xl mx-auto mb-12">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-left">
+                <div className="flex items-start space-x-3">
+                  <div className="w-2 h-2 bg-yellow-400 rounded-full mt-3 flex-shrink-0"></div>
+                  <p className="text-lg font-medium">
+                    {language === 'en' 
+                      ? 'A Notion OS to plan, log, and measure your trades.'
+                      : 'Un OS Notion para planificar, registrar y medir tus operaciones.'
+                    }
+                  </p>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <div className="w-2 h-2 bg-yellow-400 rounded-full mt-3 flex-shrink-0"></div>
+                  <p className="text-lg font-medium">
+                    {language === 'en'
+                      ? 'A 30-Day LogBook that forces daily discipline.'
+                      : 'Un LogBook de 30 días que fuerza disciplina diaria.'
+                    }
+                  </p>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <div className="w-2 h-2 bg-yellow-400 rounded-full mt-3 flex-shrink-0"></div>
+                  <p className="text-lg font-medium">
+                    {language === 'en'
+                      ? 'An AI Coach that keeps you accountable 24/7.'
+                      : 'Un Coach de IA que te mantiene responsable 24/7.'
+                    }
+                  </p>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <div className="w-2 h-2 bg-yellow-400 rounded-full mt-3 flex-shrink-0"></div>
+                  <p className="text-lg font-medium">
+                    {language === 'en'
+                      ? 'A User Guide so you don\'t waste time guessing.'
+                      : 'Una Guía de Usuario para que no pierdas tiempo adivinando.'
+                    }
+                  </p>
+                </div>
+              </div>
+            </div>
             
             {/* Delivery Promise */}
-            <div className="bg-white/10 rounded-2xl p-8 mb-12 max-w-3xl mx-auto backdrop-blur-sm">
-              <p className="text-xl text-white/90 font-medium">
+            <div className="bg-gray-800 rounded-2xl p-8 mb-12 max-w-3xl mx-auto">
+              <p className="text-xl text-yellow-400 font-medium">
                 ⚡ {t.system.value.delivery}
               </p>
             </div>
@@ -134,7 +176,7 @@ const SystemSection = () => {
             <div className="inline-flex items-center justify-center">
               <button 
                 onClick={() => window.open('https://mpago.la/1X7QviH', '_blank')}
-                className="bg-black text-yellow-400 hover:bg-gray-900 px-16 py-6 rounded-none font-black text-2xl transition-all duration-300 transform hover:scale-105 shadow-2xl border-2 border-yellow-400"
+                className="bg-yellow-400 text-black hover:bg-yellow-300 px-16 py-6 rounded-none font-black text-2xl transition-all duration-300 transform hover:scale-105 shadow-2xl"
               >
                 {language === 'en' ? 'Get The Complete System - $49' : 'Obtener el Sistema Completo - $49'}
               </button>
