@@ -7,7 +7,7 @@ export const translations = {
       successStories: "Success Stories"
     },
     
-    // Pricing & Links
+    // Pricing & Links - Unified for all languages
     pricing: {
       price: "$49",
       purchaseUrl: "https://mpago.la/1X7QviH",
