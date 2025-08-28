@@ -69,7 +69,7 @@ const Header = () => {
 
             {/* CTA Button */}
             <Button 
-              onClick={() => window.open('https://mpago.la/1X7QviH', '_blank')}
+              onClick={() => window.open(t.pricing.purchaseUrl, '_blank')}
               className="bg-black text-yellow-400 hover:bg-gray-800 hover:text-yellow-300 px-4 lg:px-6 py-2 rounded-none font-medium transition-all duration-300 transform hover:scale-105 text-sm lg:text-lg border border-yellow-400"
             >
               {t.nav.getSystem}
@@ -127,7 +127,7 @@ const Header = () => {
 
               {/* Mobile CTA */}
               <Button 
-                onClick={() => window.open('https://mpago.la/1X7QviH', '_blank')}
+                onClick={() => window.open(t.pricing.purchaseUrl, '_blank')}
                 className="w-full bg-black text-yellow-400 hover:bg-gray-800 hover:text-yellow-300 py-3 rounded-none font-bold text-lg border border-yellow-400"
               >
                 {t.nav.getSystem}

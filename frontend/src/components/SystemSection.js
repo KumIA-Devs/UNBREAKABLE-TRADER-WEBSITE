@@ -58,7 +58,7 @@ const SystemSection = () => {
           <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-gray-900 mb-6 sm:mb-8 leading-tight">
             {t.system.title}
           </h2>
-          <p className="text-xl sm:text-2xl text-red-600 font-bold mb-4 sm:mb-6">
+          <p className="text-xl sm:text-2xl text-green-600 font-bold mb-4 sm:mb-6">
             {t.system.subtitle}
           </p>
           <p className="text-lg sm:text-xl text-gray-700 leading-relaxed font-medium">
@@ -175,10 +175,10 @@ const SystemSection = () => {
             
             <div className="inline-flex items-center justify-center">
               <button 
-                onClick={() => window.open('https://mpago.la/1X7QviH', '_blank')}
+                onClick={() => window.open(t.pricing.purchaseUrl, '_blank')}
                 className="w-full sm:w-auto bg-yellow-400 text-black hover:bg-yellow-300 px-8 sm:px-12 lg:px-16 py-4 sm:py-6 rounded-none font-black text-lg sm:text-xl lg:text-2xl transition-all duration-300 transform hover:scale-105 shadow-2xl"
               >
-                {language === 'en' ? 'Get The Complete System - $49' : 'Obtener el Sistema Completo - $49'}
+                {t.system.value.ctaText}
               </button>
             </div>
           </div>

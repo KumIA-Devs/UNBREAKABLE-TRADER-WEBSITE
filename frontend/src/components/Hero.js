@@ -47,7 +47,7 @@ const Hero = () => {
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 pt-6 sm:pt-8 justify-center lg:justify-start">
               <Button 
-                onClick={() => window.open('https://mpago.la/1X7QviH', '_blank')}
+                onClick={() => window.open(t.pricing.purchaseUrl, '_blank')}
                 className="w-full sm:w-auto bg-black text-yellow-400 hover:bg-gray-800 hover:text-yellow-300 px-6 sm:px-8 lg:px-10 py-4 sm:py-6 rounded-none font-bold text-lg sm:text-xl transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-3 shadow-2xl border border-yellow-400"
                 size="lg"
               >
@@ -56,7 +56,7 @@ const Hero = () => {
               </Button>
               
               <Button 
-                onClick={() => window.open('https://noisy-duckling-f24.notion.site/Unbreakable-Trader-View-Only-2547730e2d4680c09e0ced9fda5332b1?source=copy_link', '_blank')}
+                onClick={() => window.open(t.pricing.previewUrl, '_blank')}
                 variant="outline"
                 className="w-full sm:w-auto border-2 border-black text-black hover:bg-black hover:text-yellow-400 px-6 sm:px-8 lg:px-10 py-4 sm:py-6 rounded-none font-bold text-lg sm:text-xl transition-all duration-300 flex items-center justify-center gap-3"
                 size="lg"
