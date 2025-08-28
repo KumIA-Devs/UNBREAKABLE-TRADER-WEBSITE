@@ -13,7 +13,7 @@ export const translations = {
       headline: "Most Traders Are Lying To Themselves. They Burn Money Chasing The Holy Grail.",
       subheadline: "New strategies. Shiny indicators. Guru signals. Expensive communities. The truth? You don't fail because of the market. You fail because you have no system. Trading is not a casino. It's not a hobby. It's a business.",
       description: "And in business, you don't rely on talent. You rely on systems. If your systems are broken — or worse, you don't even have one — you don't have a business. You have an expensive hobby.",
-      cta: "Stop The Madness - Get The System $49",
+      cta: "Get the System for $49",
       preview: "Preview The System",
       delivery: "After payment, you'll instantly receive a PDF with access links to all 4 components of your Unbreakable Trader system."
     },
