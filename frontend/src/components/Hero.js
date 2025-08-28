@@ -44,11 +44,11 @@ const Hero = () => {
               {t.hero.description}
             </p>
 
-            {/* CTA Buttons */}
+            {/* CTA Buttons - Updated with Golden Text */}
             <div className="flex flex-col sm:flex-row gap-4 pt-8">
               <Button 
                 onClick={() => window.open('https://mpago.la/1X7QviH', '_blank')}
-                className="bg-black text-white hover:bg-gray-800 px-10 py-6 rounded-none font-bold text-xl transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-3 shadow-2xl"
+                className="bg-black text-yellow-400 hover:bg-gray-800 hover:text-yellow-300 px-10 py-6 rounded-none font-bold text-xl transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-3 shadow-2xl border border-yellow-400"
                 size="lg"
               >
                 {t.hero.cta}
@@ -58,7 +58,7 @@ const Hero = () => {
               <Button 
                 onClick={() => window.open('https://noisy-duckling-f24.notion.site/Unbreakable-Trader-View-Only-2547730e2d4680c09e0ced9fda5332b1?source=copy_link', '_blank')}
                 variant="outline"
-                className="border-2 border-black text-black hover:bg-black hover:text-white px-10 py-6 rounded-none font-bold text-xl transition-all duration-300 flex items-center justify-center gap-3"
+                className="border-2 border-black text-black hover:bg-black hover:text-yellow-400 px-10 py-6 rounded-none font-bold text-xl transition-all duration-300 flex items-center justify-center gap-3"
                 size="lg"
               >
                 <Play className="w-6 h-6" />

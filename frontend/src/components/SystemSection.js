@@ -107,8 +107,8 @@ const SystemSection = () => {
           })}
         </div>
 
-        {/* Value Proposition */}
-        <div className="text-center bg-black text-white rounded-3xl p-16 relative overflow-hidden">
+        {/* Value Proposition - Updated with Gold Theme */}
+        <div className="text-center bg-gradient-to-br from-yellow-600 via-yellow-500 to-amber-600 text-white rounded-3xl p-16 relative overflow-hidden shadow-2xl">
           {/* Background Pattern */}
           <div className="absolute inset-0 opacity-10">
             <div className="absolute inset-0" style={{
@@ -125,7 +125,7 @@ const SystemSection = () => {
             </p>
             
             {/* Delivery Promise */}
-            <div className="bg-white/10 rounded-2xl p-8 mb-12 max-w-3xl mx-auto">
+            <div className="bg-white/10 rounded-2xl p-8 mb-12 max-w-3xl mx-auto backdrop-blur-sm">
               <p className="text-xl text-white/90 font-medium">
                 ⚡ {t.system.value.delivery}
               </p>
@@ -134,7 +134,7 @@ const SystemSection = () => {
             <div className="inline-flex items-center justify-center">
               <button 
                 onClick={() => window.open('https://mpago.la/1X7QviH', '_blank')}
-                className="bg-white text-black hover:bg-gray-100 px-16 py-6 rounded-none font-black text-2xl transition-all duration-300 transform hover:scale-105 shadow-2xl"
+                className="bg-black text-yellow-400 hover:bg-gray-900 px-16 py-6 rounded-none font-black text-2xl transition-all duration-300 transform hover:scale-105 shadow-2xl border-2 border-yellow-400"
               >
                 {language === 'en' ? 'Get The Complete System - $49' : 'Obtener el Sistema Completo - $49'}
               </button>

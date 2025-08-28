@@ -58,10 +58,10 @@ const Header = () => {
               <span className="text-sm font-medium">{language === 'en' ? 'EN' : 'ES'}</span>
             </button>
 
-            {/* CTA Button */}
+            {/* CTA Button - Updated with Golden Text */}
             <Button 
               onClick={() => window.open('https://mpago.la/1X7QviH', '_blank')}
-              className="bg-black text-white hover:bg-gray-800 px-6 py-2 rounded-none font-medium transition-all duration-300 transform hover:scale-105 text-lg"
+              className="bg-black text-yellow-400 hover:bg-gray-800 hover:text-yellow-300 px-6 py-2 rounded-none font-medium transition-all duration-300 transform hover:scale-105 text-lg border border-yellow-400"
             >
               {t.nav.getSystem}
             </Button>

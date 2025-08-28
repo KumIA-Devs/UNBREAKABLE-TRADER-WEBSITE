@@ -1,7 +1,7 @@
 import React from 'react';
 import { useLanguage } from './LanguageContext';
 import { translations } from '../data/translations';
-import { Youtube } from 'lucide-react';
+import { Youtube, Mail } from 'lucide-react';
 
 const Footer = () => {
   const { language } = useLanguage();
@@ -16,7 +16,8 @@ const Footer = () => {
             <img 
               src="https://customer-assets.emergentagent.com/job_unbreakable-os/artifacts/xses6sqk_UNBREAKABLE%20TRADER.png" 
               alt="Unbreakable Trader" 
-              className="h-16 w-auto filter brightness-0 invert"
+              className="h-16 w-auto"
+              style={{ filter: 'brightness(0) invert(1)' }}
             />
             <p className="text-gray-400 text-lg leading-relaxed">
               {language === 'en' 
@@ -47,6 +48,13 @@ const Footer = () => {
                 className="block text-gray-400 hover:text-white transition-colors text-lg"
               >
                 {language === 'en' ? 'Get System ($49)' : 'Obtener Sistema ($49)'}
+              </a>
+              <a 
+                href="mailto:nataly@unbreakabletrader.net"
+                className="flex items-center text-gray-400 hover:text-white transition-colors text-lg"
+              >
+                <Mail className="w-5 h-5 mr-2" />
+                nataly@unbreakabletrader.net
               </a>
             </div>
           </div>
